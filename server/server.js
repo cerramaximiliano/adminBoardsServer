@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 app.use(cors());
-app.listen('3001', () => {
+app.listen('3001', '0.0.0.0', () => {
     console.log('Listen On Port 3001')
 });
 
